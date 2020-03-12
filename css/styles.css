@@ -172,3 +172,15 @@ ul{
     font-size: 18px;
     font-weight: bold;
 }
+
+a:hover{
+    color:  #003459;
+}
+
+a:active{
+    /* color: rgb(8, 8, 8); */
+    color: #fff;
+}
+a:link{
+    color: #fff; 
+}
