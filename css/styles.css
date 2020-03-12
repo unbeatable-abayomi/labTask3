@@ -74,9 +74,7 @@ hr{
     border-top: dotted 2px;
     width: 100%; 
 }
-a{
-    text-decoration: none;
-}
+
 .box{
     width: 11%;
     height: 120px;
@@ -172,15 +170,16 @@ ul{
     font-size: 18px;
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+}
 
+
+a{
+    color: inherit;
+    
+}
 a:hover{
-    color:  #003459;
-}
-
-a:active{
-    /* color: rgb(8, 8, 8); */
-    color: #fff;
-}
-a:link{
-    color: #fff; 
+    cursor: pointer;
+    cursor: pointer;
 }
